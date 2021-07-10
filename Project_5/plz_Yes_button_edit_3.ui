@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>792</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>120</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>5980343_alert_ambulance_emergency_facility_hospital_icon.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_title_2">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>161</y>
+     <width>290</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+	font: 12pt &quot;카페24 써라운드&quot;;
+    border: 2px ;
+    border-radius: 20px;
+    background-color: rgb(191, 223, 227);
+    padding: 20%;
+}
+QComboBox::drop-down {
+    border: none;}
+
+</string>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_title">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>252</y>
+     <width>480</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>만화진흥원체</family>
+     <pointsize>15</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	font: 15pt &quot;만화진흥원체&quot;;
+    border: 2px ;
+    border-radius: 20px;
+    background-color: rgb(234, 239, 169);
+    padding: 16%;
+}
+QListView {
+    font: 14pt &quot;만화진흥원체&quot;;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_recommend">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>252</y>
+     <width>90</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>카페24 써라운드</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 16pt &quot;카페24 써라운드&quot;;
+background-color: rgb(172, 201, 73);</string>
+   </property>
+   <property name="text">
+    <string>추천</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>65</y>
+     <width>241</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>카페24 써라운드</family>
+     <pointsize>23</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 23pt &quot;카페24 써라운드&quot;;
+color:rgb(rgb(0, 0, 0));
+background-color: rgba(255, 255, 255, 0);
+color: rgb(35, 35, 35);
+</string>
+   </property>
+   <property name="text">
+    <string>병원을 알려조</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_recommend_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>345</y>
+     <width>131</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>카페24 써라운드</family>
+     <pointsize>13</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 13pt &quot;카페24 써라운드&quot;;
+background-color: rgb(252, 192, 190);
+color: rgb(66, 66, 66);</string>
+   </property>
+   <property name="text">
+    <string>추천 병원</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_title">
+   <property name="geometry">
+    <rect>
+     <x>413</x>
+     <y>161</y>
+     <width>290</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+	font: 12pt &quot;카페24 써라운드&quot;;
+    border: 2px ;
+    border-radius: 20px;
+    background-color: rgb(191, 223, 227);
+    padding: 20%;
+}
+QComboBox::drop-down {
+    border: none;}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_result_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>400</y>
+     <width>291</width>
+     <height>369</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>만화진흥원체</family>
+     <pointsize>13</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 13pt &quot;만화진흥원체&quot;;
+background-color: rgb(252, 192, 190);
+padding: 20%;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_recommend_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>345</y>
+     <width>131</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>카페24 써라운드</family>
+     <pointsize>13</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 13pt &quot;카페24 써라운드&quot;;
+background-color: rgb(252, 192, 190);
+color: rgb(66, 66, 66);
+</string>
+   </property>
+   <property name="text">
+    <string>병원 정보</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>400</y>
+     <width>291</width>
+     <height>369</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget {
+    border-radius: 20px;
+    background-color: rgb(252, 192, 190);
+    padding:15%;
+    font: 11.5pt &quot;카페24 써라운드&quot;;
+    text-align: left;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_html">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>699</y>
+     <width>271</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>카페24 써라운드</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 15px;
+background-color: rgb(239, 182, 182);
+font: 14pt &quot;카페24 써라운드&quot;;</string>
+   </property>
+   <property name="text">
+    <string>홈페이지 바로가기</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="infotext">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>411</y>
+     <width>270</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextBrowser {
+    border-radius: 15px;
+    background-color: rgb(239, 182, 182);
+    font: 9.5pt &quot;카페24 써라운드&quot;;
+    text-align:left;
+    padding: 6%;
+}</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'카페24 써라운드'; font-size:9.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:30px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;[ 주요 진료 과목 ] &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:30px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;[ 주소 ] &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:30px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;[ 전화번호 ]&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_recommend_5">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>40</y>
+     <width>100</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>카페24 써라운드</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>KakaoTalk_20210708_184932330_01.png</normaloff>KakaoTalk_20210708_184932330_01.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
